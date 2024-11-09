@@ -45,7 +45,7 @@ void push(struct Tarjeta** tope, char titulo[TTL], char descripcion[DSC], int pr
 	
 	*tope = nuevaTarjeta;
 	
-	printf("Tarjeta %s añadida.\n", nuevaTarjeta->titulo);
+	printf("Tarjeta %s aï¿½adida.\n", nuevaTarjeta->titulo);
 	
 }
 
@@ -67,7 +67,7 @@ void registrarTarjeta(){
 		printf("Prioridad: [1] Trivial, [2] Baja, [3] Media, [4] Alta [5] Bloqueante");
 		
 		while(scanf("%d", &prioridad) != 1 || prioridad < 1 || prioridad > 5){	
-			printf("Ingresa una opción valida para la prioridad\n");
+			printf("Ingresa una opciï¿½n valida para la prioridad\n");
 			while (getchar() != '\n'); //limpiar el bufer
 		}
 		
@@ -78,7 +78,7 @@ void registrarTarjeta(){
 		printf("\n%s", descripcion);
 		printf("\nPrioridad: %d", prioridad);
 		
-		printf("Añadir nueva tarjeta?\n");
+		printf("Aï¿½adir nueva tarjeta?\n");
 		printf("[1]Si / [2]No\n");
 		while(scanf("%d", &opt)!=1 || opt < 1 || opt >2){
 			printf("Por favor, ingresa una opcion valida para la prioridad\n");
@@ -101,7 +101,7 @@ void menuRegistrarTarjeta(){
 	printf("\n\n");
 	printf("[1] Nueva tarjeta\n");
 	printf("[2] Editar tarjeta\n");
-	printf("[0] Atrás\n");
+	printf("[0] Atrï¿½s\n");
 
 	scanf("%d", &opt);
 	while (getchar() != '\n'); //limpiar el bufer
@@ -156,9 +156,14 @@ void menuPrincipal(){
 	}
 }
 
+void prubeadecambio(){
+	
+}
+
 int main(){
 	
 	menuPrincipal();
 	
 	return 0;
 }
+
