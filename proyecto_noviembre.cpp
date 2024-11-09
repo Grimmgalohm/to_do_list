@@ -88,6 +88,8 @@ void registrarTarjeta(){
 	}while(opt!=2);
 }
 
+//Espacio para función delet tasks
+
 void menuRegistrarTarjeta(){
 	int opt;
 	system("cls");
@@ -157,7 +159,7 @@ void menuPrincipal(){
 }
 
 void prubeadecambio(){
-	
+
 }
 
 int main(){
