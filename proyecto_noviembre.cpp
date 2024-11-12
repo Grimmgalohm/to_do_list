@@ -90,6 +90,8 @@ void registrarTarjeta(){
 
 //Espacio para función delet tasks
 
+//Espacio para la funcion update
+
 void menuRegistrarTarjeta(){
 	int opt;
 	system("cls");
@@ -168,4 +170,3 @@ int main(){
 	
 	return 0;
 }
-
